@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, requests, time, sys, signal
+import os, requests, time, sys
 try:
     url = sys.argv[1]
     wordlist = sys.argv[2]
