@@ -13,9 +13,9 @@ def size():
     print(p.size())
 def screenshot():
     lol = input("What do you want to name the image: ")
-    photo = lol + ".png"
-    p.screenshot(photo)
-def main():
+    photo = lol + ".png"        # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    p.screenshot(photo)         #  This is for basic demo uses of pyautogui, it seems like a very cool module #
+def main():                     # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
     print("""
 [1] Track Mouse Position
 [2] Popup
