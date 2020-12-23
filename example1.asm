@@ -4,3 +4,5 @@ _start:
 	mov ebx, 42
 	sub ebx, 29	; THIS SUBTRACTS!!!
 	int 0x80
+; echo $?
+; This shows the exit status code
