@@ -11,8 +11,6 @@ class colors:
 	END = '\033[0m'
 	BOLD = '\033[1m'
 	UNDERLINE = '\033[4m'
-
-
 banner = colors.OKBLUE+colors.BOLD+"""
   __     _____ _         _____      ______   _ _   _      
  / _|   |  ___| |       |  _  |     |  _  \ (_) \ | |     
@@ -26,9 +24,7 @@ banner = colors.OKBLUE+colors.BOLD+"""
 
 
 """+colors.END
-
 def server(host, port):
-
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 	s.bind((host, port))
